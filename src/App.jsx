@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -11,7 +12,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <div className="bg-[#F5DEB3] h-screen font-[Bangers]">
+        <div className="bg-[#F5DEB3] font-[Bangers]">
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />}></Route>
@@ -19,6 +20,7 @@ function App() {
             <Route path="/about" element={<About />}></Route>
           </Routes>
         </div>
+        <Footer />
       </BrowserRouter>
     </>
   );
