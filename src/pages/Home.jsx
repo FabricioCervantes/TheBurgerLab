@@ -98,7 +98,7 @@ export default function Home() {
           </button>
         </div>
       </div>
-      <div className="py-5 md:py-52 flex flex-col gap-5">
+      <div className="py-5 md:pt-52 flex flex-col gap-5">
         <div className="flex flex-wrap gap-5 lg:flex-nowrap justify-around">
           <div className="max-w-sm bg-[#8B4513] rounded overflow-hidden shadow-lg">
             <img
@@ -137,7 +137,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="md:flex justify-center gap-5">
+        <div className="flex flex-col flex-wrap md:flex-nowrap justify-center gap-5">
           <div
             style={{ backgroundImage: `url(${Promo}` }}
             className="w-full h-80  bg-center bg-cover duration-500"
@@ -147,7 +147,7 @@ export default function Home() {
             className="w-full h-80  bg-center bg-cover duration-500"
           ></div>
         </div>
-        <div className="flex flex-col gap-32">
+        <div className="flex flex-col md:h-[60vh] mt-8 gap-10">
           <h1 className="text-5xl text-white text-center drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
             Testimonials
           </h1>
