@@ -17,78 +17,78 @@ import Comp4 from "../assets/menu/menu-com-4.jpg";
 
 export default function menu() {
   return (
-    <div className="p-10 lg:p-20">
+    <div className="p-1 lg:p-20">
       <div>
         <h1 className="text-5xl text-[#8B4513] mb-5">Burgers</h1>
-        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-5 grid-cols-2 lg:grid-cols-3">
           <div className="max-w-sm bg-[#8B4513] rounded overflow-hidden shadow-lg transform transition duration-500 hover:scale-105">
             <img
-              className="w-full h-72"
+              className="w-full h-42 md:h-72"
               src={Burger1}
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-4xl text-white text-center mb-2">
+              <div className="font-bold text-xl md:text-4xl text-white text-center mb-2">
                 Classic American Burger
               </div>
             </div>
           </div>
           <div className="max-w-sm bg-[#8B4513] rounded overflow-hidden shadow-lg transform transition duration-500 hover:scale-105">
             <img
-              className="w-full h-72"
+              className="w-full h-42 md:h-72"
               src={Burger2}
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-4xl text-white text-center mb-2">
+              <div className="font-bold text-xl md:text-4xl text-white text-center mb-2">
                 Mushroom Swiss Burger
               </div>
             </div>
           </div>
           <div className="max-w-sm bg-[#8B4513] rounded overflow-hidden shadow-lg transform transition duration-500 hover:scale-105">
             <img
-              className="w-full h-72"
+              className="w-full h-42 md:h-72"
               src={Burger3}
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-4xl text-white text-center mb-2">
+              <div className="font-bold text-xl md:text-4xl text-white text-center mb-2">
                 BBQ Bacon Burger
               </div>
             </div>
           </div>
           <div className="max-w-sm bg-[#8B4513] rounded overflow-hidden shadow-lg transform transition duration-500 hover:scale-105">
             <img
-              className="w-full h-72"
+              className="w-full h-42 md:h-72"
               src={Burger4}
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-4xl text-white text-center mb-2">
+              <div className="font-bold text-xl md:text-4xl text-white text-center mb-2">
                 California Burger
               </div>
             </div>
           </div>
           <div className="max-w-sm bg-[#8B4513] rounded overflow-hidden shadow-lg transform transition duration-500 hover:scale-105">
             <img
-              className="w-full h-72"
+              className="w-full h-42 md:h-72"
               src={Burger5}
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-4xl text-white text-center mb-2">
+              <div className="font-bold text-xl md:text-4xl text-white text-center mb-2">
                 Spicy Jalapeño Burger
               </div>
             </div>
           </div>
           <div className="max-w-sm bg-[#8B4513] rounded overflow-hidden shadow-lg transform transition duration-500 hover:scale-105">
             <img
-              className="w-full h-72"
+              className="w-full h-42 md:h-72"
               src={Burger6}
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-4xl text-white text-center mb-2">
+              <div className="font-bold text-xl md:text-4xl text-white text-center mb-2">
                 Veggie Burger
               </div>
             </div>
