@@ -137,7 +137,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col flex-wrap md:flex-nowrap justify-center gap-5">
+        <div className="flex flex-col md:flex-row flex-wrap md:flex-nowrap justify-center gap-5">
           <div
             style={{ backgroundImage: `url(${Promo}` }}
             className="w-full h-80  bg-center bg-cover duration-500"
