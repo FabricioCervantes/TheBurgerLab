@@ -97,51 +97,51 @@ export default function menu() {
       </div>
       <div className="mt-10">
         <h1 className="text-5xl text-[#8B4513] mb-5">Drinks</h1>
-        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-5 grid-cols-2 lg:grid-cols-3">
           <div className="max-w-sm bg-[#8B4513] rounded overflow-hidden shadow-lg transform transition duration-500 hover:scale-105">
             <img
-              className="w-full h-72"
+              className="w-full h-42 md:h-72"
               src={Drink1}
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-4xl text-white text-center mb-2">
+              <div className="font-bold text-xl md:text-4xl text-white text-center mb-2">
                 Coffee
               </div>
             </div>
           </div>
           <div className="max-w-sm bg-[#8B4513] rounded overflow-hidden shadow-lg transform transition duration-500 hover:scale-105">
             <img
-              className="w-full h-72"
+              className="w-full h-42 md:h-72"
               src={Drink2}
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-4xl text-white text-center mb-2">
+              <div className="font-bold text-xl md:text-4xl text-white text-center mb-2">
                 Orance juice
               </div>
             </div>
           </div>
           <div className="max-w-sm bg-[#8B4513] rounded overflow-hidden shadow-lg transform transition duration-500 hover:scale-105">
             <img
-              className="w-full h-72"
+              className="w-full h-42 md:h-72"
               src={Drink3}
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-4xl text-white text-center mb-2">
+              <div className="font-bold text-xl md:text-4xl text-white text-center mb-2">
                 Soda
               </div>
             </div>
           </div>
           <div className="max-w-sm bg-[#8B4513] rounded overflow-hidden shadow-lg transform transition duration-500 hover:scale-105">
             <img
-              className="w-full h-72"
+              className="w-full h-42 md:h-72"
               src={Drink4}
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-4xl text-white text-center mb-2">
+              <div className="font-bold text-xl md:text-4xl text-white text-center mb-2">
                 Water
               </div>
             </div>

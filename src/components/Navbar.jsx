@@ -57,12 +57,12 @@ export default function NavBar() {
                 Menu
               </NavLink>
               <NavLink
-                to="/locations"
+                to="/blog"
                 className={({ isActive, isPending }) =>
                   isPending ? "pending" : isActive ? "active" : ""
                 }
               >
-                Locations
+                Blog
               </NavLink>
               <NavLink
                 to="/about"
