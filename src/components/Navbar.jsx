@@ -51,7 +51,11 @@ export default function NavBar() {
               <NavLink
                 to="/menu"
                 className={({ isActive, isPending }) =>
-                  isPending ? "pending" : isActive ? "active" : ""
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "bg-[#8B4513] p-2 rounded-md"
+                    : ""
                 }
               >
                 Menu
@@ -59,7 +63,11 @@ export default function NavBar() {
               <NavLink
                 to="/blog"
                 className={({ isActive, isPending }) =>
-                  isPending ? "pending" : isActive ? "active" : ""
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "bg-[#8B4513] p-2 rounded-md"
+                    : ""
                 }
               >
                 Blog
@@ -67,7 +75,11 @@ export default function NavBar() {
               <NavLink
                 to="/about"
                 className={({ isActive, isPending }) =>
-                  isPending ? "pending" : isActive ? "active" : ""
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "bg-[#8B4513] p-2 rounded-md"
+                    : ""
                 }
               >
                 About

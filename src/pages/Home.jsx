@@ -93,7 +93,7 @@ export default function Home() {
             Treat yourself to the juiciest, most mouth-watering burgers around,
             made with only the freshest, highest quality ingredients.
           </p>
-          <button className="bg-[#8B4513] text-3xl mt-5 p-3 rounded-md shadow-lg text-white">
+          <button className="bg-[#8B4513] text-3xl mt-5 p-3 rounded-md shadow-lg text-white transform transition duration-500 hover:scale-105">
             Order Now!
           </button>
         </div>
